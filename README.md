@@ -1,0 +1,18 @@
+Important notes:
+
+- Must have folders within desktop labeled "New Photos", "Background Removed Photos", "PNG Converted Photos", "RE-sized (3000x3000)", "Finished Photos" and "Photo Filters"
+
+- program loads up websites and clicks the mouse at co-ordinates relative to my computer screen. Different screen resolutions will impact where the mouse should click. Within the convertToPNG and removeBackground functions these specific co-ordinates are located. If your screen resolution is different than mine you will have to go onto each site, find the mouse co-ordinates of each button that needs to be pressed, and change the values of the co-ordinates for each mouse click.
+
+- Ensure you have a decent internet connection running this program. All clicks give time for the website to load/process images but if the website is to slow it will result in the program facing a runtime error when it can't find the file it is processing.
+
+
+Input:
+
+- To run this program simply put photos (png or jpg supported) into the "New Photos" folder and then run the program
+
+Output:
+
+- Each folder represents a stage of editing the photo and so the photo can be traced as it is processed. The "Finished Photos" folder will have the photo displayed within the "Photo Filter" 
+
+* Photos will have the tag "[PROCESSED]" if in that stage of editing, the photo has already been processed. This tag will cause the program to skip over the photo saving time.
